@@ -4,6 +4,8 @@ import './style.css';
 export default function HomeDisplay() {
 
     const content = document.getElementById('content');
+    content.innerHTML = '';
+
     const hero = document.createElement('div')
     hero.className = 'hero';
 
