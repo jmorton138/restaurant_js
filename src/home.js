@@ -1,8 +1,7 @@
 import Picture from './picture.jpg';
 import './style.css';
 
-export default function display() {
-    console.log('toodles');
+export default function HomeDisplay() {
 
     const content = document.getElementById('content');
     const hero = document.createElement('div')
