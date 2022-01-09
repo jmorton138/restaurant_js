@@ -1,4 +1,4 @@
-import Picture from './picture.jpg';
+import Picture from './picture.jpeg';
 import './style.css';
 
 export default function HomeDisplay() {
@@ -10,7 +10,7 @@ export default function HomeDisplay() {
     hero.className = 'hero';
 
     const title = document.createElement('h1');
-    title.textContent = "Food Place";
+    title.textContent = "A very good restaurant";
 
     hero.appendChild(title);
     
@@ -20,9 +20,8 @@ export default function HomeDisplay() {
     hero.appendChild(pic);
 
     const body = document.createElement('div');
-    body.textContent = "This is the best place for food.";
+    body.textContent = "This is the premier restaurant in serving food that's edible.";
 
     content.appendChild(hero);
-    content.appendChild(pic)
     content.appendChild(body);
 }

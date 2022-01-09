@@ -1,8 +1,45 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body {
+    background-color: darkseagreen;
+
+}
 img {
-    height: 200px;
+    width: 100%;
 }
 
 .tab {
     display: inline;
     padding: 20px;
+    color: white;
+}
+.tab:hover {
+    background-color: rgb(31, 39, 17);
+}
+
+nav {
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+
+}
+#content {
+    width: 80%;
+    margin: auto;
+} 
+
+.menu-list {
+    font-size: large;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    border: 1px solid grey;
+    padding: 20px;
+}
+.menu-item {
+    padding: 10px;
 }
